@@ -3,6 +3,16 @@
 
     <string name="app_name">CamTest</string>
     <string name="action_settings">Settings</string>
+    <string name="menu_exit">Exit</string>
     <string name="hello_world">Hello world!</string>
+    <string name="TakePic">Take Picture</string>
+    <string name="save">Save</string>
+    <string name="Effect">Effect   &gt;</string>
+    <string name="invert">Invert Color</string>
+    <string name="filter">Filter   &gt;</string>
+    <string name="B_and_W">Black and White</string>
+    <string name="red">Red</string>
+    <string name="green">Green</string>
+    <string name="blue">Blue</string>
 
 </resources>

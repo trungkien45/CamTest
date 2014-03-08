@@ -1,9 +1,26 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
 
+    <item android:id="@+id/exit" android:title="@string/menu_exit" android:orderInCategory="101"></item>
     <item
         android:id="@+id/action_settings"
         android:orderInCategory="100"
         android:showAsAction="never"
         android:title="@string/action_settings"/>
+    
+    <item android:id="@+id/take" android:orderInCategory="1" android:title="@string/TakePic"></item>
+    <item android:id="@+id/save" android:title="@string/save"></item>
+    <item android:id="@+id/effect" android:title="@string/Effect">
+        <menu>
+            <item android:id="@+id/invert" android:title="@string/invert"/>
+            <item android:id="@+id/filter" android:title="@string/filter">
+                <menu>
+                    <item android:id="@+id/B_and_W" android:title="@string/B_and_W"/>
+                    <item android:id="@+id/red" android:title="@string/red"/>
+                    <item android:id="@+id/green" android:title="@string/green"/>
+                    <item android:id="@+id/blue" android:title="@string/blue"/>
+                </menu>
+            </item>
+        </menu>
+    </item>
 
 </menu>
